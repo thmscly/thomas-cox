@@ -6,9 +6,7 @@ function Hero({ title, info }) {
       <div>
         <h1>{title}</h1>
       </div>
-      <div>
-        <p>{info}</p>
-      </div>
+      <div>{info}</div>
     </>
   );
 }
