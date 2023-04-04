@@ -2,15 +2,12 @@ import React from "react";
 import PageLayout from "../layouts/PageLayout";
 import { Link } from "react-router-dom";
 
-const title = "T.C. Cox";
-const info = (
-  <h3>
-    Hi. I'm T.C. Cox, and I'm a Meta-certified Front-End Software Engineer.
-  </h3>
-);
+const title = "T.C.Cox";
+const info =
+  "Hi. I'm T.C., and I'm a Meta-certified Front-End Software Engineer.";
 
 const content = (
-  <div className="grid-cols-3 gap-3rem">
+  <div className="grid grid-flow-col">
     <div>
       <Link to="/about">
         <h4>About</h4>

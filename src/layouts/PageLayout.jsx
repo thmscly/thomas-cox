@@ -7,9 +7,6 @@ function PageLayout({ title, info, content }) {
   return (
     <>
       <div>
-        <NavBar />
-      </div>
-      <div>
         <Hero title={title} info={info} />
       </div>
       <div>
