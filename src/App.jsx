@@ -1,32 +1,20 @@
 import React from "react";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import Routing from "./components/Routing";
 import "./App.css";
-import { createBrowserRouter } from "react-router-dom";
-
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-]);
+import { BrowserRouter as Router } from "react-router-dom";
+import NavBar from "./layouts/NavBar";
 
 function App() {
-  (<Home />), (<About />), (<Projects />), (<Contact />);
+  return (
+    <Router>
+      <div className="App text-slate-700 font-raleway min-w-screen content-center">
+        <NavBar />
+        <div>
+          <Routing />
+        </div>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
