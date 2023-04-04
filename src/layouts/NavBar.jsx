@@ -5,7 +5,7 @@ import React from "react";
 function NavBar() {
   return (
     <div>
-      <nav>
+      <nav className="grid grid-flow-col p-5">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
