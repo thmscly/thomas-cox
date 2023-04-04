@@ -7,7 +7,7 @@ import NavBar from "./layouts/NavBar";
 function App() {
   return (
     <Router>
-      <div className="App text-slate-700 font-raleway min-w-screen content-center">
+      <div className="text-emerald-700 font-mono min-w-screen min-h-screen content-center bg-black">
         <NavBar />
         <div>
           <Routing />
