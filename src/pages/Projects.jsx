@@ -2,23 +2,27 @@ import React from "react";
 import PageLayout from "../layouts/PageLayout";
 
 const title = "Projects";
-const info = "A look into some of the projects I've enjoyed working on.";
+const info = "What I've been working on.";
 const content = (
-  <div className="grid grid-cols-3 gap-5">
-    <div>
+  <div className="flex flex-row">
+    <div className="basis-1/3">
       <h3>Meta Certification Capstone</h3>
       <p>
         The Capstone project for Coursera's Meta Front-End Developer
         Professional Certificate
       </p>
     </div>
-    <div>
-      <h3>Meta Developer Course Capstone</h3>
-      <p>blahblah ablhablha babalhablah ablb lahblblaha blah</p>
+    <div className="basis-1/3">
+      <h3>Source Code</h3>
+      <p>The Repo for this web app.</p>
     </div>
-    <div>
-      <h3>Meta Developer Course Capstone</h3>
-      <p>blahblah ablhablha babalhablah ablb lahblblaha blah</p>
+    <div className="basis-1/3">
+      <h3>Rachel Cox Art</h3>
+      <p>
+        Rachel Cox Art An in-progress e-commerce shopping-cart site built with
+        React to sell my wife's art. It's deployed with Netlify and will have a
+        Stripe integration.Link to repo
+      </p>
     </div>
   </div>
 );

@@ -3,7 +3,7 @@ import PageLayout from "../layouts/PageLayout";
 import { Link } from "react-router-dom";
 
 const cursor = (
-  <div className="col-span-1 animate-myPulse inline-block w-5 h-10 bg-green-600 self-center justify-self-end" />
+  <div className="animate-[pulse_1s_ease-in-out_infinite] inline-block w-5 h-10 bg-green-600 self-center justify-self-end" />
 );
 
 const title = <div>{cursor} Thomas Cox</div>;
