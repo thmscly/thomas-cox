@@ -5,8 +5,8 @@ const arr = title.split("");
 
 function TitleAnimation() {
   return (
-    <div className="">
-      <h1 className="animate-titleAnimation">
+    <div>
+      <h1>
         {arr.map((x) => {
           return x;
         })}
