@@ -9,19 +9,19 @@ const metaLogo = (
 const title = "Projects";
 const info = "What I've been working on.";
 const content = (
-  <div className="flex flex-row">
-    <div className="basis-1/3">
+  <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-3 gap-4 m-5">
+    <div>
       <h3> {metaLogo} Meta Certification Capstone</h3>
       <p>
         The Capstone project for Coursera's Meta Front-End Developer
         Professional Certificate.
       </p>
     </div>
-    <div className="basis-1/3">
+    <div>
       <h3>Source Code</h3>
       <p>The Repo for this web app.</p>
     </div>
-    <div className="basis-1/3">
+    <div>
       <h3>Rachel Cox Art</h3>
       <p>
         Rachel Cox Art An in-progress e-commerce shopping-cart site built with
