@@ -3,10 +3,10 @@ import PageLayout from "../layouts/PageLayout";
 import { Link } from "react-router-dom";
 
 const title = 'Thomas "T.C."Cox';
-const info = " Meta-certified Front-End Engineer.";
+const info = "Meta-certified Front-End Engineer.";
 
 const content = (
-  <div className="grid grid-flow-col gap-28">
+  <div className="grid grid-flow-col auto-cols-fr">
     <div>
       <Link to="/about">
         <h3>About</h3>

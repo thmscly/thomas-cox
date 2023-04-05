@@ -3,11 +3,11 @@ import NavBar from "./NavBar";
 import Hero from "./sections/Hero";
 import Main from "./sections/Main";
 
-function PageLayout({ title, info, content }) {
+function PageLayout({ title, info, content, image }) {
   return (
-    <div className="grid grid-row-auto gap-10">
+    <div className="grid grid-row-auto gap-5">
       <div>
-        <Hero title={title} info={info} />
+        <Hero title={title} info={info} image={image} />
       </div>
       <hr />
       <div>
