@@ -6,20 +6,28 @@ const title = "T.C.Cox";
 const info = "Hi. I'm T.C., and I'm a Meta-certified Front-End Engineer.";
 
 const content = (
-  <div className="grid grid-flow-col">
+  <div className="grid grid-flow-col gap-28">
     <div>
       <Link to="/about">
-        <h4>About</h4>
+        <h3>About</h3>
+        <p>
+          Who am I? That's a toughie. Click here and I'll walk you through my
+          coding journey.
+        </p>
       </Link>
     </div>
     <div>
       <Link to="/projects">
-        <h4>Projects</h4>
+        <h3>Projects</h3>
+        <p>
+          Click here to find links, GitHub repos, and see what I'm working on.
+        </p>
       </Link>
     </div>
     <div>
       <Link to="/contact">
-        <h4>Socials</h4>
+        <h3>Socials</h3>
+        <p>Click here to find me on the Interwebs.</p>
       </Link>
     </div>
   </div>
