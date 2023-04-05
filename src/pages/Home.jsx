@@ -3,8 +3,7 @@ import PageLayout from "../layouts/PageLayout";
 import { Link } from "react-router-dom";
 
 const title = "T.C.Cox";
-const info =
-  "Hi. I'm T.C., and I'm a Meta-certified Front-End Software Engineer.";
+const info = "Hi. I'm T.C., and I'm a Meta-certified Front-End Engineer.";
 
 const content = (
   <div className="grid grid-flow-col">
