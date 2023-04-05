@@ -2,11 +2,15 @@ import React from "react";
 import PageLayout from "../layouts/PageLayout";
 import { Link } from "react-router-dom";
 
-const title = 'Thomas "T.C."Cox';
+const cursor = (
+  <div className="col-span-1 animate-myPulse inline-block w-5 h-10 bg-green-600 self-center justify-self-end" />
+);
+
+const title = <div>{cursor} Thomas Cox</div>;
 const info = "Meta-certified Front-End Engineer.";
 
 const content = (
-  <div className="grid grid-flow-col auto-cols-fr">
+  <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-3 gap-4 m-5">
     <div>
       <Link to="/about">
         <h3>About</h3>
