@@ -9,7 +9,7 @@ import TitleAnimation from "./components/TitleAnimation";
 function App() {
   return (
     <div className="grid justify-items-center text-green-600 font-mono min-w-screen min-h-screen bg-black pb-2">
-      <div className="w-3/5">
+      <div className="w-4/5">
         <div>
           <NavBar />
         </div>

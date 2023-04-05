@@ -1,15 +1,20 @@
 import React from "react";
 import PageLayout from "../layouts/PageLayout";
+import MetaLogo from "../assets/META.svg";
+
+const metaLogo = (
+  <img className="inline-block h-8 w-8" src={MetaLogo} alt="Meta Logo" />
+);
 
 const title = "Projects";
 const info = "What I've been working on.";
 const content = (
   <div className="flex flex-row">
     <div className="basis-1/3">
-      <h3>Meta Certification Capstone</h3>
+      <h3> {metaLogo} Meta Certification Capstone</h3>
       <p>
         The Capstone project for Coursera's Meta Front-End Developer
-        Professional Certificate
+        Professional Certificate.
       </p>
     </div>
     <div className="basis-1/3">
